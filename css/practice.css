@@ -1,0 +1,36 @@
+section{
+	margin: 20px 0px;
+}
+.home{
+	width: 50px;
+    margin: 0 auto;
+}
+.home a{
+	font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    background-color: #121B2A;
+}
+.bg_yellow p{
+	background-color: yellow;
+}
+.child_selector > p{
+	background-color: yellow;
+}
+.adjacent_selector + p{
+	background-color: yellow;
+}
+.general_sibling ~ p{
+	background-color: yellow;
+}
+.first_child p:first-child{
+	background: yellow;
+}
+.last_child p:last-child{
+	background: yellow;
+}
+.nth_child p:nth-child(2){
+	background: yellow;
+}
